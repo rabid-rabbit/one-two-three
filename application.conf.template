@@ -1,0 +1,37 @@
+one-two-three {
+
+  input {
+
+    path = "/tmp/in.tif"
+
+  }
+
+  output {
+
+    path = "/tmp/out.tif"
+
+    transparent = true
+
+    bitmap {
+
+      path = "/tmp/bitmap.tif"
+
+    }
+
+  }
+
+  map {
+
+    l1 = 0
+
+    l2 = 50
+
+    scale = true
+
+    path = "/tmp/map.tif"
+
+  }
+
+
+
+}
